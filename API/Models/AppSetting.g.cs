@@ -20,10 +20,14 @@ namespace TestProjSept27.Models
         /// <summary>
         /// Gets or sets the connection string of blob storage.
         /// </summary>
-        public static string BlobStorageConnectionString { get; set; }
+        public static string AccountName { get; set; }
+        /// <summary>
+        /// Gets or sets the account name of blob storage.
+        /// </summary>
+        public static string AccountKey { get; set; }
         /// <summary>
         /// Gets or sets the container name of blob storage.
         /// </summary>
-        public static string BlobStorageContainerName { get; set; }
+        public static string ContainerName { get; set; }
     }
 }

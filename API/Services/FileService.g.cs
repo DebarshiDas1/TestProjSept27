@@ -98,7 +98,7 @@ namespace TestProjSept27.Services
 
         private static BlobContainerClient GetBlobContainerClient()
         {
-            return new BlobContainerClient(AppSetting.BlobStorageConnectionString, AppSetting.BlobStorageContainerName);
+            return new BlobContainerClient($"DefaultEndpointsProtocol=https;AccountName={AppSetting.AccountName};AccountKey={AppSetting.AccountKey};EndpointSuffix=core.windows.net", AppSetting.ContainerName);
         }
 
         private static string GetTimeStamp()
