@@ -1,0 +1,20 @@
+grid:
+  cardTitle:
+    fields:
+      - dataType: string
+        label: Name
+        fieldName: Name
+        column: 12
+  cardDetail:
+    fields:
+      - dataType: string
+        required: true
+        label: Code
+        fieldName: Code
+        column: 12
+filter:
+  fields:
+    - dataType: string
+      label: Name
+      fieldName: Name
+      column: 12

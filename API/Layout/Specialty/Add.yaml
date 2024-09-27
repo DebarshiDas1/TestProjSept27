@@ -1,0 +1,13 @@
+- dataType: section
+  label: Specialty
+  showTitle: true
+  column: 12
+  fields:
+    - fieldName: Name
+      label: Name
+      dataType: string
+      column: 12
+    - fieldName: Code
+      label: Code
+      dataType: string
+      column: 12

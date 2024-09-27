@@ -1,0 +1,14 @@
+- dataType: section
+  label: Tenant
+  showTitle: true
+  column: 12
+  fields:
+    - fieldName: Code
+      label: Code
+      dataType: string
+      required: true
+      column: 12
+    - fieldName: Name
+      label: Name
+      dataType: string
+      column: 12

@@ -1,0 +1,30 @@
+- dataType: section
+  label: Patient details
+  showTitle: true
+  column: 12
+  fields:
+    - fieldName: Code
+      label: Code
+      dataType: string
+      column: 3
+    - fieldName: Name
+      label: Name
+      dataType: string
+      column: 9
+    - fieldName: Gender
+      label: Gender
+      dataType: string
+      column: 4
+    - fieldName: BirthDate
+      label: Birth date
+      dataType: datetime
+      required: true
+      column: 5
+    - fieldName: PhoneNumber
+      label: Phone number
+      dataType: string
+      column: 6
+    - fieldName: Email
+      label: Email
+      dataType: string
+      column: 6

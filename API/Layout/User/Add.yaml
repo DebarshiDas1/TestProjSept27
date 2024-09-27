@@ -1,0 +1,30 @@
+- dataType: section
+  label: Section
+  showTitle: true
+  column: 12
+  fields:
+    - fieldName: IsSuperAdmin
+      label: Is super admin
+      dataType: boolean
+      column: 12
+    - fieldName: TenantId
+      label: Tenant id
+      dataType: guid
+      required: true
+      entityName: Tenant
+      column: 12
+    - fieldName: EmailId
+      label: Email id
+      dataType: string
+      required: true
+      column: 12
+    - fieldName: PasswordHash
+      label: Password hash
+      dataType: string
+      required: true
+      column: 12
+    - fieldName: Saltkey
+      label: Saltkey
+      dataType: string
+      required: true
+      column: 12
